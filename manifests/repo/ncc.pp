@@ -33,7 +33,7 @@ define mrepo::repo::ncc (
   $update     = 'nightly',
   $hour       = '0',
   $iso        = '',
-  $repotitle  = $name
+  $repotitle  = $name,
   $typerelease = $release,
 ) {
   include mrepo::params
