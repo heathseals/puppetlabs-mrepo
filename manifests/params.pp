@@ -81,6 +81,7 @@ class mrepo::params (
   $descriptions = {},
   $http_proxy   = '',
   $https_proxy  = '',
+  $createrepo_options  = '',
 ) {
   validate_re($source, "^git$|^package$")
   validate_re($git_proto, "^git$|^https$")
