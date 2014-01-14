@@ -59,6 +59,7 @@ class mrepo::package {
   $mailto       = $mrepo::params::mailto
   $http_proxy   = $mrepo::params::http_proxy
   $https_proxy  = $mrepo::params::https_proxy
+  $createrepo_options  = $mrepo::params::createrepo_options
 
   file { "/etc/mrepo.conf":
     ensure  => present,
