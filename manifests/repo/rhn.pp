@@ -32,7 +32,7 @@ define mrepo::repo::rhn (
   $update     = 'nightly',
   $hour       = '0',
   $iso        = '',
-  $typerelease = $release,
+  $rhnrelease = $release,
   $repotitle  = $name
 ) {
   include mrepo::params
